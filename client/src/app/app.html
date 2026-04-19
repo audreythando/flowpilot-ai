@@ -1,8 +1,15 @@
 <div class="app-shell">
   <aside class="sidebar">
-    <div class="brand">
-      <h1>Flowpilot-ai</h1>
-      <p>AI Workflow Copilot</p>
+    <div class="brand-card">
+ <img
+  class="brand-logo"
+  src="/logo.png"
+  alt="Flowpilot AI logo"
+/>
+
+      <div class="brand-copy">
+        <p>Workflow intelligence, reimagined</p>
+      </div>
     </div>
 
     <nav class="nav-links">
@@ -10,12 +17,27 @@
       <a routerLink="/workflows" routerLinkActive="active">Workflows</a>
       <a routerLink="/submissions" routerLinkActive="active">Submissions</a>
     </nav>
+
+    <div class="sidebar-footer">
+      <div class="status-chip">
+        <span class="status-dot"></span>
+        AI copilots enabled
+      </div>
+    </div>
   </aside>
 
   <div class="main-content">
     <header class="topbar">
-      <h2>Workflow Operations Hub</h2>
-      <p>Build, track, and improve workflows with AI assistance.</p>
+      <div class="topbar-left">
+        <div class="topbar-label">Flow Operations</div>
+        <h2>Workflow Operations Hub</h2>
+        <p>Build, track, and optimize workflows with AI-guided operations.</p>
+      </div>
+
+      <div class="topbar-actions">
+        <button class="ghost-btn" type="button">Activity</button>
+        <button class="primary-btn" type="button">New Workflow</button>
+      </div>
     </header>
 
     <main class="page-content">
