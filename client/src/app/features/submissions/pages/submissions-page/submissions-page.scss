@@ -1,0 +1,23 @@
+:host {
+  display: block;
+}
+
+.placeholder-page {
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid rgba(183, 153, 255, 0.14);
+  background: linear-gradient(180deg, rgba(20, 25, 39, 0.92) 0%, rgba(14, 19, 32, 0.96) 100%);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.22);
+
+  h3 {
+    margin: 0 0 0.75rem;
+    color: #f8f3ff;
+    font-size: 1.5rem;
+  }
+
+  p {
+    margin: 0;
+    color: #ab9fc3;
+    max-width: 60ch;
+  }
+}
